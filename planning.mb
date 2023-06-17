@@ -5,6 +5,67 @@ Color Palette
     BC8034
     8C7A6B
 
+Top Left Corner
+    We will maybe have the company logo there.
+
+Navigation Bar linking to all pages
+    This will consist of "home, dishes, reviews, news"
+
 Home
     1 headers using H1
         "Flavors of Fire: The Grilled Garden"
+
+    3 sections of text with H2 headers
+        H2(1)
+            "Our Mission"
+            text
+                This will be about the mission of the restaurant
+
+        H2(2)
+            "Our achievement"
+            text
+                We talk about what the restaurant has achieved so far
+
+        H2(3)
+            "What we do as a restaurant"
+            text
+                This will talk about what the restaurant serves
+
+Reviews
+    HTML form with a minimum of:
+        Fieldset
+            The purpose of this is to encompass all form elements and their working correctly
+
+        3 inputs
+            2 text(1)
+                fullName
+            2 text(2)
+                Dish
+            Checkbox
+                "Sign up for newsletter"
+
+        1 textarea
+            This will consist of their review of the dish
+
+        1 button
+            submit
+
+News
+    1 header using H1
+        "Upcoming Events"
+
+    1 ordered or unordered list of link to 5 other websites
+        We are going to do this slightly different but still hit the requirements
+            We are going to have a subheading
+                The subheading will represent who or what it is.
+            From there I'm going to insert an image
+            Underneath we will be a link associated with the image above.
+
+Dishes
+    1 header using H1
+        "Dishes"
+
+    6 images displayed 3 wide and 2 down
+        The images will consist of different variety of burgers
+            Provide a label for each
+            Clicking in the image opens the source of that image in a new window.

@@ -17,13 +17,38 @@
             <p class="nav__navigation-bar--tabs">news</p>
         </nav>
 
+        <section id="section__img-block"><img id="section__img-block--background" src="#"></section>
+
         <form method="post">
             <fieldset>
                 <legend>The Grilled Garden</legend>
+
                 <section>
                     <label for="fullName">Full Name:</label>
                     <input id="fullName" type="text" name="fullName">
                 </section>
+
+                <section>
+                    <label for="dishes">Dishes:</label>
+                    <input id="dishes" type="text" name="dishes">
+                    <!--We may change this to options-->
+                </section>
+
+                <section>
+                    <label for="newsletter">
+                        <input id="newsletter" type="checkbox" name="checkbox">
+                        Sign up for newsletters
+                    </label>
+                </section>
+
+                <section>
+                    <label for="review">Review:</label>
+                    <textarea id="review" name="review" rows="5" cols="45">
+                        What are your thoughts on the dish?
+                    </textarea>
+                </section>
+
+                <section><button id="submit" type="submit">submit</button></section>
             </fieldset>
         </form>
     </body>

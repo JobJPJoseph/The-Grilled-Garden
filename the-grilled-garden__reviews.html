@@ -17,20 +17,34 @@
             <p class="nav__navigation-bar--tabs">news</p>
         </nav>
 
-        <section id="section__img-block"><img id="section__img-block--background" src="#"></section>
+        <section id="section__img-block"><img id="section__img-block--background" src="https://www.golfinflorida.at/fileadmin/user_upload/restaurant.jpg"></section>
 
         <form method="post">
             <fieldset>
                 <legend>The Grilled Garden</legend>
 
                 <section>
-                    <label for="fullName">Full Name:</label>
-                    <input id="fullName" type="text" name="fullName">
+                    <label for="firstName">First Name:</label>
+                    <input id="firstName" type="text" name="firstName">
+                </section>
+
+                <section>
+                    <label for="lastName">Last Name:</label>
+                    <input id="lastName" type="text" name="lastName">
                 </section>
 
                 <section>
                     <label for="dishes">Dishes:</label>
-                    <input id="dishes" type="text" name="dishes">
+
+                    <select id="dishes">
+                        <option value="">--Defualt Option--</option>
+                        <option value="Western-BBQ-Burger">Western BBQ Burger</option>
+                        <option value="The-Grilled-Garden-Burger">The Grilled Garden Burger</option>
+                        <option value="Double-Glazed-Baby-Back-Ribs">Double-Glazed Baby Back Ribs</option>
+                        <option value="6-oz.-Top">6 oz. Top</option>
+                        <option value="Garlic-Double-Steakburger">Garlic Double Steakburger</option>
+                        <option value="10-Piece-Wings-Original">10 Piece Wings Original</option>
+                    </select>
                     <!--We may change this to options-->
                 </section>
 

@@ -12,12 +12,41 @@ body {
     display: flex;
     position: relative;
     flex-direction: row;
+    width: 100%;
     justify-content: space-between;
     border: 3px solid white;
+    background-color: ;
 }
 
 #section__master-header > .section__master-headers {
     position: relative;
     border: 1px dashed red;
     margin: 0 20px;
+    background-color: ;
+}
+
+#nav__navigation-bar--space-between {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #5E0B15;
+    border-top: 3px solid white;
+    border-bottom: 3px solid white;
+    margin: 10px 0px;
+}
+
+.nav__navigation-bar--tabs {
+    text-decoration: none;
+    color: inherit;
+    border: 1px solid darkturquoise;
+    margin: 10px 0px;
+}
+
+
+
+img {
+    position: relative;
+    border: 3px solid darkblue;
+    height: 200px;
+    width: 350px;
 }

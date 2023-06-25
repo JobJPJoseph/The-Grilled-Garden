@@ -43,8 +43,8 @@ body {
 img {
     position: relative;
     border: 3px solid firebrick;
-    height: 200px;
-    width: 350px;
+    height: 100px;
+    width: 200px;
 }
 
 #section__header {
@@ -72,15 +72,45 @@ img {
     border: 1px solid greenyellow;
 }
 
+
+
+
 .section__images--3-wide-2-down {
+    /* margin: 5px 165px; */
+}
+
+
+.section__content-with-images {
+    border: 2px solid lawngreen;
     display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    margin: 0px 165px;
+    flex-direction: row;
+    width: 300px;
+    margin: 0px 20px;
 }
 
 .section__images--dishes {
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
+    justify-content: center;
+    border: 3px solid white;
+}
+
+.section__img--resize {
+
+}
+
+.section__img--titles {
+    border: 1px solid steelblue;
+    margin: 0;
+}
+
+.text {
+    border: 1px solid silver;
+    margin: 0;
+}
+
+.section__img--right {
+    display: flex;
+    flex-direction: column;
+    border: 3px solid aqua;
 }

@@ -44,7 +44,7 @@ img {
     position: relative;
     border: 3px solid firebrick;
     height: 100px;
-    width: 200px;
+    width: 150px;
 }
 
 #section__header {
@@ -84,8 +84,10 @@ img {
     border: 2px solid lawngreen;
     display: flex;
     flex-direction: row;
-    width: 300px;
+    width: 450px;
+    /* min-width: 300px; */
     margin: 0px 20px;
+    background-color: #5E0B15;
 }
 
 .section__images--dishes {
@@ -113,4 +115,13 @@ img {
     display: flex;
     flex-direction: column;
     border: 3px solid aqua;
+    background-color: #8C7A6B;
+}
+
+#section__block--left {
+    margin-left: 165px
+}
+
+#section__block--right {
+    margin-right: 165px;
 }

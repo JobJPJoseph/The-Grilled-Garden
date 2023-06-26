@@ -21,6 +21,7 @@ body {
     position: relative;
     border: 1px dashed red;
     margin: 0 20px;
+    font-family: 'courgette';
 }
 
 #nav__navigation-bar--space-between {
@@ -62,9 +63,15 @@ img {
     background-position: center;
 }
 
+@font-face {
+    font-family: 'courgette';
+    src: url(./Fonts/Courgette/Courgette-Regular.ttf) format('truetype');
+}
+
 #div__title {
     border: 2px solid orangered;
-    font-family: cursive;
+    font-family: 'courgette';
+    font-weight: normal;
     font-size: 50px;
 
 }
@@ -155,6 +162,6 @@ img {
 
 .div__title--decorations {
     height: 20px;
-    margin: 10px 165px 30px;
+    margin: 10px 110px 30px;
     border: 2px solid violet;
 }

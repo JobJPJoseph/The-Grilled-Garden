@@ -64,7 +64,9 @@ img {
 
 #div__title {
     border: 2px solid orangered;
-    font-family: monospace;
+    font-family: cursive;
+    font-size: 50px;
+
 }
 
 #div__title--undo-margins {
@@ -141,4 +143,18 @@ img {
 
 #section__block--right {
     margin-right: 165px;
+}
+
+.div__title--box {
+    height: 2px;
+    width: 100%;
+    background-color: red;
+    margin: 4px 0px;
+    border-radius: 10%;
+}
+
+.div__title--decorations {
+    height: 20px;
+    margin: 10px 165px 30px;
+    border: 2px solid violet;
 }

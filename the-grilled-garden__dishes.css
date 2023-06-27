@@ -81,13 +81,10 @@ img {
     border: 1px solid greenyellow;
 }
 
-
-
-
 .section__images--3-wide-2-down {
-    /* display: flex;
-    flex-direction: column; */
-
+    display: flex;
+    flex-direction: column;
+    border: 3px solid darkmagenta;
 }
 
 
@@ -167,4 +164,28 @@ img {
     height: 20px;
     margin: 10px 110px 30px;
     border: 2px solid violet;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    justify-content: space-between;
+
+    border: 3px solid orchid;
+    width: 100%;
+    margin-top: 10px;
+}
+
+footer > .footer__header--bottom-left {
+    position: relative;
+    margin-left: 20px;
+    font-family: 'courgette';
+    border: 1px dashed red;
+    bottom: 25%;
+}
+
+footer > .footer__socials--bottom-right {
+    margin-right: 20px;
+    align-self: center;
 }

@@ -6,6 +6,7 @@ body {
     background-color: black;
     color: white;
     margin: 0;
+    background-image: url(https://i.pinimg.com/originals/21/27/a7/2127a75c21171604f5169377c5282a53.jpg);
 }
 
 #section__master-header {
@@ -14,12 +15,11 @@ body {
     flex-direction: row;
     width: 100%;
     justify-content: space-between;
-    border: 3px solid white;
+    background-color: black;
 }
 
 #section__master-header > .section__master-headers {
     position: relative;
-    border: 1px dashed red;
     margin: 0 20px;
     font-family: 'courgette';
 }
@@ -31,19 +31,17 @@ body {
     background-color: #5E0B15;
     border-top: 3px solid white;
     border-bottom: 3px solid white;
-    margin: 10px 0px;
+    margin: 0px 0px;
 }
 
 .nav__navigation-bar--tabs {
     text-decoration: none;
     color: inherit;
-    border: 1px solid lawngreen;
     margin: 10px 0px;
 }
 
 img {
     position: relative;
-    border: 3px solid firebrick;
     height: 125px;
     width: 180px;
 }
@@ -52,15 +50,16 @@ img {
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
-    border: 3px solid darkgoldenrod;
     align-items: center;
 }
 
 #section__banner {
+    display: block;
     width: 100%;
     height: 300px;
     background-image: url(https://www.imanutritionist.com/wp-content/uploads/2018/11/People-enjoying-food-1280x431.jpg);
     background-position: center;
+    border-bottom: 5px solid #5E0B15;
 }
 
 @font-face {
@@ -69,7 +68,6 @@ img {
 }
 
 #div__title {
-    border: 2px solid orangered;
     font-family: 'courgette';
     font-weight: normal;
     font-size: 50px;
@@ -78,24 +76,22 @@ img {
 
 #div__title--undo-margins {
     margin-bottom: 0px;
-    border: 1px solid greenyellow;
+    margin-top: 30px;
+
 }
 
 .section__images--3-wide-2-down {
     display: flex;
     flex-direction: column;
-    border: 3px solid darkmagenta;
 }
 
 
 .section__content-with-images {
-    border: 2px solid lawngreen;
     display: flex;
     flex-direction: column;
-    justify-content: center; /*Questionable??? */
+    justify-content: center;
     align-items: center;
     width: 450px;
-    /* min-width: 300px; */
     margin: 0px 20px;
     background-color: #8C7A6B;
     border-radius: 5%;
@@ -105,7 +101,7 @@ img {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    border: 3px solid white;
+    margin: 10px 0px;
 }
 
 .section__img--resize {
@@ -115,7 +111,6 @@ img {
 }
 
 .section__img--titles {
-    border: 1px solid steelblue;
     margin: 0;
     text-align: center;
     border-radius: 5%;
@@ -126,19 +121,16 @@ img {
 }
 
 .text {
-    border: 1px solid silver;
     margin: 0;
     text-align: center;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: small;
     color: black;
-    /*We need to set the height */
 }
 
 .section__img--right {
     display: flex;
     flex-direction: column;
-    border: 3px solid aqua;
     background-color: #8C7A6B;
     border-radius: 5%;
 }
@@ -163,7 +155,6 @@ img {
 .div__title--decorations {
     height: 20px;
     margin: 10px 110px 30px;
-    border: 2px solid violet;
 }
 
 footer {
@@ -172,20 +163,24 @@ footer {
     position: relative;
     justify-content: space-between;
 
-    border: 3px solid orchid;
     width: 100%;
-    margin-top: 10px;
+    background-color: black;
 }
 
 footer > .footer__header--bottom-left {
     position: relative;
     margin-left: 20px;
     font-family: 'courgette';
-    border: 1px dashed red;
     bottom: 25%;
 }
 
 footer > .footer__socials--bottom-right {
     margin-right: 20px;
     align-self: center;
+}
+
+#main__dishes {
+    position: relative;
+    margin: 50px 20px 0px;
+    background-color: black;
 }

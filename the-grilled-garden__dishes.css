@@ -16,12 +16,19 @@ body {
     width: 100%;
     justify-content: space-between;
     background-color: black;
+
 }
 
 #section__master-header > .section__master-headers {
     position: relative;
     margin: 0 20px;
     font-family: 'courgette';
+
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
 
 #nav__navigation-bar--space-between {
@@ -183,5 +190,6 @@ footer > .footer__socials--bottom-right {
 #main__dishes {
     position: relative;
     margin: 50px 20px 0px;
+    padding-bottom: 30px;
     background-color: #D9CAB3;
 }

@@ -20,7 +20,7 @@ body {
 
 .div__img--resize {
     height: 200px;
-    width: 200px;
+    width: 195px;
     border: 1px dashed gold;
 }
 
@@ -129,7 +129,9 @@ body {
     display: flex;
     flex-direction: row;
     flex-wrap: nowrap;
+    justify-content: center;
     border: 3px solid snow;
+    width: 100%;
 }
 
 .section__news-block {
@@ -138,7 +140,11 @@ body {
     flex-wrap: nowrap;
     background-color: black;
     border: 3px solid darkblue;
-    height: 200px;
-    width: 100px;
+    width: 200px;
     margin: 10px 20px;
+}
+
+.section__img-info {
+    border: 3px solid maroon;
+    height: 100%;
 }

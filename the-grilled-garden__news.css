@@ -19,6 +19,7 @@ body {
 
 
 .div__img--resize {
+    display: block;
     height: 200px;
     width: 195px;
     border: 1px dashed gold;
@@ -147,4 +148,30 @@ body {
 .section__img-info {
     border: 3px solid maroon;
     height: 100%;
+}
+
+.header__img-title {
+    border: 1px dashed aqua;
+    margin-bottom: 9px;
+    text-align: left;
+    padding-left: 20px;
+
+}
+
+.section__list {
+    border: 1px dashed olivedrab;
+    margin: 0px;
+    padding-left: 40px;
+}
+
+.list__date-time {
+    border: 1px dashed darkturquoise;
+}
+
+.link__location {
+    border: 1px dashed gold;
+}
+
+.div__learn-more {
+    border: 1px dashed goldenrod;
 }

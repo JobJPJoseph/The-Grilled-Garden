@@ -147,8 +147,6 @@ body {
 
 .section__img-info {
     display: grid;
-    flex-direction: column;
-    flex-wrap: nowrap;
     border: 3px solid maroon;
     height: 100%;
 }
@@ -180,4 +178,26 @@ body {
     color: white;
     text-align: center;
     align-self: flex-end;
+}
+
+
+
+#section__footer--block {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    border: 3px solid darkgreen;
+    align-items: center;
+}
+
+#div__footer-header {
+    font-family: 'courgette';
+    margin-left: 20px;
+    border: 1px dashed red;
+}
+
+#div__block--socials {
+    border: 1px dashed red;
+    margin-right: 20px
 }

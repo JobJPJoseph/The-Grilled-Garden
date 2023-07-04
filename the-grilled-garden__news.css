@@ -55,20 +55,19 @@ body {
     border-top: 3px solid white;
     border-bottom: 3px solid white;
     align-items: center;
-    width: 100%;
-    height: 50px;
     background-color:#5E0B15;
 }
 
 .nav__navigation-bar--tabs {
     text-decoration: none;
     color: white;
+    margin: 10px 0px;
 }
 
 #section__banner {
     width: 100%;
     height: 300px;
-    border-bottom: 3px solid #5E0B15;
+    border-bottom: 5px solid #5E0B15;
     background-image: url(https://www.nynyduelingpianos.com/wp-content/uploads/2017/04/piano-banner-1024x447.png);
     background-position: center;
 }
@@ -113,7 +112,7 @@ body {
 
 .div__decorations--bar {
     background-color: red;
-    height: 3px;
+    height: 2px;
     width: 100%;
     margin: 2px 0;
 }

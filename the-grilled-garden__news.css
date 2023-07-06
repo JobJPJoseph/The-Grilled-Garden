@@ -88,8 +88,7 @@ body {
     position: relative;
 }
 
-#section__title-box {
-}
+
 
 #section__title {
     font-family: 'courgette';
@@ -157,12 +156,6 @@ body {
     list-style-type: none;
     color: black;
 
- }
-
-.list__date-time {
-}
-
-.link__location {
 }
 
 li::marker {

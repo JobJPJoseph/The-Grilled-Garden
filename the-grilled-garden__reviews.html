@@ -8,62 +8,81 @@
     </head>
 
     <body>
-        <section id="section__master-header--top-left"><h2>The Grilled Garden</h2></section>
+        <section id="section__master-header">
+            <div id="section__master-header--title" class="section__master-header-boxes"><h2><a href="./the-grilled-garden__home.html" style="text-decoration: none; color: black;">The Grilled Garden</a></h2></div>
+            <div id="section__master-header--sign-in" class="section__master-header-boxes"><h2>Sign-in</h2></div>
+        </section>
 
         <nav id="nav__navigation-bar--space-between">
-            <p class="nav__navigation-bar--tabs">home</p>
-            <p class="nav__navigation-bar--tabs">dishes</p>
-            <p class="nav__navigation-bar--tabs">reviews</p>
-            <p class="nav__navigation-bar--tabs">news</p>
+            <a href="./the-grilled-garden__home.html" class="nav__navigation-bar--tabs">home</a>
+            <a href="./the-grilled-garden__dishes.html" class="nav__navigation-bar--tabs">dishes</a>
+            <a href="./the-grilled-garden__reviews.html" class="nav__navigation-bar--tabs">reviews</a>
+            <a href="./the-grilled-garden__news.html" class="nav__navigation-bar--tabs">news</a>
         </nav>
 
-        <section id="section__img-block"><img id="section__img-block--background" src="https://www.golfinflorida.at/fileadmin/user_upload/restaurant.jpg"></section>
+        <section id="section__block--banner"><img id="section__banner"></section>
+
 
         <form method="post">
-            <fieldset>
-                <legend>The Grilled Garden</legend>
+            <fieldset style="border: none;">
 
-                <section>
-                    <label for="firstName">First Name:</label>
-                    <input id="firstName" type="text" name="firstName">
+                <section id="section__user-info-top">
+                    <section class="section__user-info-blocks">
+                        <label for="firstName" class="section__label-info">First Name:</label>
+                        <input id="firstName" type="text" name="firstName" class="section__input--info">
+                    </section>
+
+                    <section class="section__user-info-blocks">
+                        <label for="lastName" class="section__label-info">Last Name:</label>
+                        <input id="lastName" type="text" name="lastName" class="section__input--info">
+                    </section>
+
+                    <section class="section__user-info-blocks">
+                        <label for="date" class="section__label-info">Date:</label>
+                        <input id="date" type="date" class="section__input--info">
+                    </section>
+
+                    <section class="section__user-info-blocks">
+                        <label for="dishes" class="section__label-info">Dishes:</label>
+
+                        <select id="dishes" class="section__input--info">
+                            <option value="">--Defualt Option--</option>
+                            <option value="Western-BBQ-Burger">Western BBQ Burger</option>
+                            <option value="The-Grilled-Garden-Burger">The Grilled Garden Burger</option>
+                            <option value="Double-Glazed-Baby-Back-Ribs">Double-Glazed Baby Back Ribs</option>
+                            <option value="6-oz.-Top">6 oz. Top</option>
+                            <option value="Garlic-Double-Steakburger">Garlic Double Steakburger</option>
+                            <option value="10-Piece-Wings-Original">10 Piece Wings Original</option>
+                        </select>
+                        <!--We may change this to options-->
+                    </section>
                 </section>
 
-                <section>
-                    <label for="lastName">Last Name:</label>
-                    <input id="lastName" type="text" name="lastName">
-                </section>
-
-                <section>
-                    <label for="dishes">Dishes:</label>
-
-                    <select id="dishes">
-                        <option value="">--Defualt Option--</option>
-                        <option value="Western-BBQ-Burger">Western BBQ Burger</option>
-                        <option value="The-Grilled-Garden-Burger">The Grilled Garden Burger</option>
-                        <option value="Double-Glazed-Baby-Back-Ribs">Double-Glazed Baby Back Ribs</option>
-                        <option value="6-oz.-Top">6 oz. Top</option>
-                        <option value="Garlic-Double-Steakburger">Garlic Double Steakburger</option>
-                        <option value="10-Piece-Wings-Original">10 Piece Wings Original</option>
-                    </select>
-                    <!--We may change this to options-->
-                </section>
-
-                <section>
+                <!-- <section>
                     <label for="newsletter">
                         <input id="newsletter" type="checkbox" name="checkbox">
                         Sign up for newsletters
                     </label>
-                </section>
+                </section> -->
 
-                <section>
-                    <label for="review">Review:</label>
-                    <textarea id="review" name="review" rows="5" cols="45">
-                        What are your thoughts on the dish?
-                    </textarea>
+                <section id="section__user-review-bottom">
+                    <section class="section__block--user-review">
+                        <label for="review" class="section__label--review">Review:</label>
+                        <textarea id="review" name="review" rows="5" cols="45" class="section__textarea--review">
+                            What are your thoughts on the dish?
+                        </textarea>
+                    </section>
                 </section>
 
                 <section><button id="submit" type="submit">submit</button></section>
             </fieldset>
         </form>
+
+        <footer>
+            <section id="section__footer--block">
+                <div id="div__footer-header"><h2><a href="./the-grilled-garden__home.html" style="text-decoration: none; color: white;">The Grilled Garden</a></h2></div>
+                <div id="div__block--socials"><p>By Author: Job Joseph-<a href="https://github.com/JobJPJoseph" target="_blank" style="text-decoration: none; color: white">GitHub</a>-<a href="https://www.linkedin.com/in/job-joseph-25831822a/" target="_blank" style="text-decoration: none; color: white;">LinkedIn</a></p></div>
+            </section>
+        </footer>
     </body>
 </html>

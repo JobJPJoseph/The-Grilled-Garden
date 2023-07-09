@@ -60,6 +60,7 @@ body {
 #section__banner {
     width: 100%;
     height: 300px;
+    background-color: black;
     border-bottom: 5px solid #5E0B15;
     background-image: url(https://t4.ftcdn.net/jpg/02/09/64/33/360_F_209643310_7tdlZx6oMF9iPqnt2PzbXdfYTNKGohdm.jpg);
     background-position: center;
@@ -88,14 +89,13 @@ body {
 
 
 fieldset {
-    border: 3px solid white;
     display: flex;
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
     margin: 5px 10px;
     width: 100%;
-
+    border: none;
 }
 
 #section__main-content {
@@ -110,7 +110,6 @@ fieldset {
     display: flex;
     flex-direction: column;
     align-items: center;
-    border: 3px solid darkblue;
     width: inherit;
 }
 
@@ -148,20 +147,60 @@ fieldset {
     flex-wrap: nowrap;
     align-items: center;
     background-color: #8C7A6B;
-    border: 3px solid dodgerblue;
-    width: 100%;
+    margin: 20px 0px;
+    padding: 0px 15%;
 }
 
+.section__user-info-blocks {
+    margin: 10px 0px;
+}
+
+.section__label-info {
+    font-family: 'courgette';
+    font-size: 20px;
+    margin-right: 5px;
+}
+
+.section__input--info {
+}
+
+
 #section__user-review-bottom {
-    width: 100%;
     background-color: #8C7A6B;
-    border: 3px solid darkred;
     text-align: center;
+    padding: 0px 12%;
+    margin: 20px 0px;
+
 }
 
 .section__block--user-review {
     display: flex;
     flex-direction: column;
-    border: 1px dashed darkorange;
     align-items: center;
+
+
+}
+
+.section__label--review {
+    font-family: 'courgette';
+    font-size: 20px;
+    margin: 10px 0px;
+}
+
+
+#ection__button--box {
+    display: block;
+}
+
+button {
+    background-color: #5E0B15;
+    font-family: 'courgette';
+    padding: 3px 9px;
+    color: white;
+}
+
+
+
+#section__banner--header {
+
 }

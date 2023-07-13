@@ -92,3 +92,38 @@ body {
 #div__block--socials {
     margin-right: 20px
 }
+
+
+
+#section__title-block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: inherit;
+}
+
+#section__title {
+    font-family: 'courgette';
+    margin-top: 30px;
+    margin-bottom: 0px;
+    font-size: 50px;
+}
+
+#section__title--decorations {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 100%;
+    padding: 0px 70px;
+}
+
+
+.div__decorations--bar {
+    background-color: red;
+    height: 2px;
+    width: 100%;
+    margin: 2px 0;
+}

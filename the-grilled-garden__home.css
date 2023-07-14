@@ -82,16 +82,21 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
+    border: 3px solid olive;
 }
 
 #div__footer-header {
     font-family: 'courgette';
     margin-left: 20px;
+    border: 3px dashed red;
+
 }
 
 #div__block--socials {
-    margin-right: 20px
+    margin-right: 20px;
+    border: 3px dashed red;
 }
+
 
 
 
@@ -100,6 +105,7 @@ body {
     flex-direction: column;
     align-items: center;
     width: inherit;
+    border: 3px solid dimgray;
 }
 
 #section__title {
@@ -107,6 +113,7 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
     font-size: 50px;
+    border: 3px dashed gold;
 }
 
 #section__title--decorations {
@@ -118,6 +125,8 @@ body {
     height: 40px;
     width: 100%;
     padding: 0px 70px;
+    border: 3px dashed seagreen;
+
 }
 
 
@@ -126,4 +135,41 @@ body {
     height: 2px;
     width: 100%;
     margin: 2px 0;
+}
+
+
+
+
+#section__content {
+    border: 3px solid saddlebrown;
+}
+
+#div__block--box-top {
+    border: 3px solid firebrick;
+}
+
+.section__content-block--box {
+    border: 3px solid blue;
+    background-color: transparent;
+}
+
+.div__content-block--box {
+    border: 3px dashed orchid;
+    margin: 50px 20px 0px;
+    background-color: #D9CAB3;
+}
+
+.section__content-block--header {
+    border: 3px solid darkred;
+}
+
+.section__content-block--header-text {
+    border: 3px dashed darkcyan;
+    font-family: 'courgette';
+    text-align: center;
+}
+
+.p__content-block--text {
+    color: black;
+    text-align: center;
 }

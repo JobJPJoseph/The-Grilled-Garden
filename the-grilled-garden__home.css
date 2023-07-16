@@ -215,14 +215,23 @@ body {
 }
 
 #div__content--images {
+    /* display: grid; */
+    /* grid-template: 160px / repeat(6, 1fr); */
     display: flex;
     flex-direction: row;
+    height: 165px;
     flex-wrap: nowrap;
+    justify-content: space-between;
     border: 3px dashed darkorange;
+    background-color: white;
 }
 
 .section__img--resize {
-    height: 100px;
-    width: 100px;
-    background-color: white;
+    height: 150px;
+    width: 150px;
+    background-color: black;
+}
+
+.link__content-box {
+    margin: 5px;
 }

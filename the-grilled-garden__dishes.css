@@ -193,3 +193,12 @@ footer > .footer__socials--bottom-right {
     padding-bottom: 30px;
     background-color: #D9CAB3;
 }
+
+/* #img__background--absolute {
+    display: block;
+    height: inherit;
+    width: inherit;
+    background-image: url(https://i.pinimg.com/originals/21/27/a7/2127a75c21171604f5169377c5282a53.jpg);
+    background-position: center;
+    background-color: white;
+} */

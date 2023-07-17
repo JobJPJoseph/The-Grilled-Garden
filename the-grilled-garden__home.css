@@ -70,6 +70,7 @@ body {
     background-color: black;
     background-image: url(https://www.golfinflorida.at/fileadmin/user_upload/restaurant.jpg);
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 
@@ -234,4 +235,87 @@ body {
 
 .link__content-box {
     margin: 5px;
+}
+
+
+
+
+#div__block--box-middle-transparent {
+    /* height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -1; */
+
+    height: 400px;
+    width: 100%;
+    background-color: black;
+    opacity: 40%;
+    z-index: -1;
+}
+
+#div__section__block--box-cover {
+    /* height: 400px;
+    width: 100%;
+    background-color: black;
+    opacity: 40%;
+    z-index: -1; */
+
+    height: 400px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
+    background-position: center;
+    background-size: cover;
+    z-index: -1;
+}
+
+#div__block--content {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+    z-index: 1;
+    justify-content: center;
+    height: 400px;
+    margin: 10px 165px;
+
+}
+
+.div__block--content-header {
+    margin: 10px 0;
+    font-size: 50px;
+}
+
+.div__block--content-header-text {
+    color: white;
+    z-index: 1;
+    font-family: 'courgette';
+    margin: 0px;
+}
+
+#div__p__content-boc--transparent-text {
+    color: white;
+    z-index: 1;
+}
+
+.div__button--border {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 75px;
+    width: 250px;
+    margin: 20px 0;
+    border: 4px double white;
+    background-color: transparent;
+}
+
+.link__button--box {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }

@@ -7,7 +7,7 @@ body {
     margin: 0px;
     background-color: black;
     color: white;
-    /* background-image: url(https://i.pinimg.com/originals/21/27/a7/2127a75c21171604f5169377c5282a53.jpg); */
+    background-image: url(https://thumbs.dreamstime.com/b/brown-tile-texture-background-design-73837409.jpg);
 }
 
 @font-face {
@@ -83,19 +83,16 @@ body {
     justify-content: space-between;
     align-items: center;
     background-color: black;
-    border: 3px solid olive;
 }
 
 #div__footer-header {
     font-family: 'courgette';
     margin-left: 20px;
-    border: 3px dashed red;
 
 }
 
 #div__block--socials {
     margin-right: 20px;
-    border: 3px dashed red;
 }
 
 
@@ -106,7 +103,6 @@ body {
     flex-direction: column;
     align-items: center;
     width: inherit;
-    border: 3px solid dimgray;
 }
 
 #section__title {
@@ -114,7 +110,6 @@ body {
     margin-top: 30px;
     margin-bottom: 0px;
     font-size: 50px;
-    border: 3px dashed gold;
 }
 
 #section__title--decorations {
@@ -126,7 +121,6 @@ body {
     height: 40px;
     width: 100%;
     padding: 0px 70px;
-    border: 3px dashed seagreen;
 
 }
 
@@ -142,7 +136,6 @@ body {
 
 
 #section__content {
-    border: 3px solid saddlebrown;
 }
 
 #div__block--box-top {
@@ -153,13 +146,11 @@ body {
 }
 
 .section__content-block--box {
-    border: 3px solid blue;
 
 
 }
 
 .div__content-block--box {
-    border: 3px dashed orchid;
     margin: 50px 80px 100px;
     background-color: #8C7A6B;
     display: flex;
@@ -169,18 +160,15 @@ body {
 }
 
 .section__content-block--header {
-    border: 3px solid darkred;
 }
 
 .section__content-block--header-text {
-    border: 3px dashed darkcyan;
     font-family: 'courgette';
     color: #5E0B15;
     text-align: center;
 }
 
 .p__content-block--text {
-    border: 1px dashed black;
     color: black;
     text-align: center;
     margin: 10px 20px;
@@ -210,20 +198,16 @@ body {
 
 
 #section__content-block-image-box {
-    border: 3px solid darkgreen;
     width: 100%;
     margin: 100px 0px 0px;
 }
 
 #div__content--images {
-    /* display: grid; */
-    /* grid-template: 160px / repeat(6, 1fr); */
     display: flex;
     flex-direction: row;
     height: 165px;
     flex-wrap: nowrap;
     justify-content: space-between;
-    border: 3px dashed darkorange;
     background-color: white;
 }
 
@@ -243,10 +227,6 @@ body {
 #div__block--box-middle-transparent {
     height: 400px;
     width: 100%;
-    /* background-repeat: no-repeat;
-    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
-    background-position: center;
-    background-size: cover; */
 }
 
 .img__background-image--fill {
@@ -330,6 +310,7 @@ body {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    border-bottom: 5px solid #5E0B15;
 }
 
 .image {

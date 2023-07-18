@@ -241,35 +241,34 @@ body {
 
 
 #div__block--box-middle-transparent {
-    /* height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
-    background-position: center;
-    background-size: cover;
-    z-index: -1; */
-
     height: 400px;
     width: 100%;
-    background-color: black;
-    opacity: 40%;
-    z-index: -1;
+    /* background-repeat: no-repeat;
+    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
+    background-position: center;
+    background-size: cover; */
+}
+
+.img__background-image--fill {
+    height: 400px;
+    width: 100%;
+
 }
 
 #div__section__block--box-cover {
-    /* height: 400px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 400px;
     width: 100%;
     background-color: black;
     opacity: 40%;
-    z-index: -1; */
 
-    height: 400px;
-    width: 100%;
-    background-repeat: no-repeat;
-    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
-    background-position: center;
-    background-size: cover;
-    z-index: -1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
 }
 
 #div__block--content {
@@ -277,7 +276,6 @@ body {
     flex-direction: column;
     flex-wrap: nowrap;
     align-items: center;
-    z-index: 1;
     justify-content: center;
     height: 400px;
     margin: 10px 165px;
@@ -291,14 +289,15 @@ body {
 
 .div__block--content-header-text {
     color: white;
-    z-index: 1;
     font-family: 'courgette';
     margin: 0px;
+
 }
 
 #div__p__content-boc--transparent-text {
     color: white;
-    z-index: 1;
+    margin: 0px 165px;
+
 }
 
 .div__button--border {
@@ -318,4 +317,44 @@ body {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+
+
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 400px;
+    background-image: url(https://offloadmedia.feverup.com/secretnyc.co/wp-content/uploads/2020/09/08192356/73422523_487451788542792_8482019883670831104_o-1.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.image {
+    width: 100%;
+    height: 400px;
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.4); /* Black overlay with 40% opacity */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+
+    flex-direction: column;
+    flex-wrap: nowrap;
+}
+
+.overlay-text {
+    font-size: 2em;
+    padding: 20px;
 }

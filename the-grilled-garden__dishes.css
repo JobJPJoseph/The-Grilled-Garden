@@ -90,6 +90,7 @@ img {
 .section__images--3-wide-2-down {
     display: flex;
     flex-direction: column;
+    padding: 40px 0px 70px;
 }
 
 
@@ -192,13 +193,5 @@ footer > .footer__socials--bottom-right {
     margin: 50px 20px 0px;
     padding-bottom: 30px;
     background-color: #D9CAB3;
+    box-shadow: 0px 0px 40px black;
 }
-
-/* #img__background--absolute {
-    display: block;
-    height: inherit;
-    width: inherit;
-    background-image: url(https://i.pinimg.com/originals/21/27/a7/2127a75c21171604f5169377c5282a53.jpg);
-    background-position: center;
-    background-color: white;
-} */

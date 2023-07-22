@@ -103,6 +103,8 @@ img {
     margin: 0px 20px;
     background-color: #8C7A6B;
     border-radius: 5%;
+    padding: 0px 15px 15px;
+
 }
 
 .section__images--dishes {
@@ -141,15 +143,17 @@ img {
     flex-direction: column;
     background-color: #8C7A6B;
     border-radius: 5%;
+
 }
 
 
 #section__block--left {
-    margin-left: 165px
+    margin-left: 165px;
 }
 
 #section__block--right {
     margin-right: 165px;
+
 }
 
 .div__title--box {

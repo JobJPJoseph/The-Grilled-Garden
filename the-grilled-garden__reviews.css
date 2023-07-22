@@ -10,8 +10,6 @@ body {
     background-image: url(https://thumbs.dreamstime.com/b/brown-tile-texture-background-design-73837409.jpg);
 }
 
-
-
 @font-face {
     font-family: 'courgette';
     src: url(./Fonts/Courgette/Courgette-Regular.ttf) format('truetype');
@@ -97,6 +95,7 @@ fieldset {
     align-items: center;
     background-color: #D9CAB3;
     margin: 50px 20px 0px;
+    box-shadow: 0px 0px 40px black;
 }
 
 #section__title-block {

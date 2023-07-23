@@ -27,22 +27,22 @@ body {
 
 #section__master-header {
     display: flex;
-    flex-direction: row;
+    flex-direction: column-reverse;
+    align-items: center;
     flex-wrap: nowrap;
-    justify-content: space-between;
     background-color: black;
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/7353024/1820/965/m1/fpnw/wm1/ahp0l9ecx0vfwsdo1rwxcdtynfyzn4gweomwnblntp5glupfrmnapoab88tzxyjd-.jpg?1574572829&s=b8ffc3e573cf00451539ee4b954ba3c0);
+    background-position: center;
+    background-size: cover;
 }
 
-.section__master-header-boxes {
-    font-family: 'courgette';
+#section__master-header--image {
+    height: 120px;
+    width: 170px;
 }
 
-#section__master-header--title {
-    margin-left: 20px;
-}
-
-#section__master-header--sign-in {
-    margin-right: 20px;
+#section__master-header--image-box {
+    margin: 20px 0px 0px;
 }
 
 
@@ -68,8 +68,9 @@ body {
     width: 100%;
     height: 300px;
     border-bottom: 5px solid #5E0B15;
-    background-image: url(https://www.nynyduelingpianos.com/wp-content/uploads/2017/04/piano-banner-1024x447.png);
+    background-image: url(https://wallpapercave.com/wp/wp1874169.jpg);
     background-position: center;
+    background-size: cover;
 }
 
 

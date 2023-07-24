@@ -33,6 +33,10 @@ body {
     font-size: 30px;
 }
 
+.section__master-header-boxes {
+    margin: 10px 0px;
+}
+
 #section__master-header--image {
     height: 120px;
     width: 170px;

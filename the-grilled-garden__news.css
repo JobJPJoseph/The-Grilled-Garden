@@ -38,6 +38,8 @@ body {
 
 #section__master-header--title {
     font-family: 'courgette';
+    margin: 0px;
+    font-size: 30px;
 }
 
 #section__master-header--image {

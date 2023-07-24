@@ -20,6 +20,10 @@ body {
     background-size: cover;
 }
 
+#section__master-header--title {
+    font-family: 'courgette';
+}
+
 #section__master-header--image {
     height: 120px;
     width: 170px;
